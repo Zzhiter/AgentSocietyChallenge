@@ -1,0 +1,38 @@
+{
+    "type": "simulation",
+    "metrics": {
+        "preference_estimation": 0.21999999999999997,
+        "review_generation": 0.5923318321600068,
+        "overall_quality": 0.4061659160800034
+    },
+    "data_info": {
+        "evaluated_count": 10,
+        "original_simulation_count": 10,
+        "original_ground_truth_count": 400
+    }
+}{
+    "type": "simulation",
+    "metrics": {
+        "preference_estimation": 0.21974999999999734,
+        "review_generation": 0.5970718160945039,
+        "overall_quality": 0.4084109080472506
+    },
+    "data_info": {
+        "evaluated_count": 400,
+        "original_simulation_count": 400,
+        "original_ground_truth_count": 400
+    }
+}{
+    "type": "simulation",
+    "metrics": {
+        "preference_estimation": 0.21974999999999734,
+        "review_generation": 0.5970718160945039,
+        "overall_quality": 0.4084109080472506
+    },
+    "data_info": {
+        "evaluated_count": 400,
+        "original_simulation_count": 400,
+        "original_ground_truth_count": 400
+    }
+}
+// 分割

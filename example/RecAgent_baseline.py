@@ -109,6 +109,7 @@ class MyRecommendationAgent(RecommendationAgent):
         for sub_task in plan:
             
             if 'user' in sub_task['description']:
+                # "{'user_id': 'AFM4E4IMV26YLY5ZOFXQAJ3XW7DA', 'source': 'amazon'}"
                 user = str(self.interaction_tool.get_user(user_id=self.task['user_id']))
                 input_tokens = num_tokens_from_string(user)
                 if input_tokens > 12000:
